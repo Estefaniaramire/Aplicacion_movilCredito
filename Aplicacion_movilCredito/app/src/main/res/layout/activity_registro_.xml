@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B8B9C8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:textSize="34sp"
+            android:textColor="#003E3233"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Registro"
+            android:textSize="40sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="......"
+            android:textSize="30sp"
+            android:textColor="#00D7121E"
+            android:layout_marginBottom="20dp"/>
+
+
+
+        <EditText
+            android:id="@+id/etUsernameRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre de usuario"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etPasswordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
+        <EditText
+            android:id="@+id/etEmailRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Correo Electronico"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etConfirPasswordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirmar contraseña"
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:textSize="34sp"
+            android:textColor="#003E3233"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Antes de confirmar su cuenta, favor de adjuntar su documentación."
+            android:textSize="15dp"
+            android:textColor="#3A3A3A"
+            android:layout_marginBottom="8dp"/>
+
+
+        <Button
+            android:id="@+id/btnRegister2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adjuntar documentación"
+            android:backgroundTint="#673AB7"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="20dp"/>
+
+
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirmar"
+            android:backgroundTint="#673AB7"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
